@@ -7,7 +7,7 @@
 
 Prompter is light-weight Swift 2+ library that greatly simplifies capturing user input for command line (cli) applications on OSX and Linux.
 
-Specifically, it allow you to prompt the user for input and validate that responses are (currently) `String`, `Int`, `Bool` or a valid choice from a pick-list.
+Specifically, it allow you to prompt the user for input and validate that responses are (currently) `String`, `Int`, `Bool` or a valid single choice from a list.
 
 ## Installation
 
