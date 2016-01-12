@@ -1,0 +1,16 @@
+language: objective-c
+podfile: Podfile
+osx_image: xcode7.2
+rvm:  2.2.3
+xcode_project: Prompter.xcworkspace
+xcode_scheme: Sources
+before_install:
+ - gem install cocoapods -v '0.39'
+ - pod install
+only:
+- master
+script:
+- pod lib lint
+after_success:
+- chmod +x ./Resources/scripts/docs.sh
+- ./Resources/scripts/docs.sh
