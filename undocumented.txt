@@ -1,0 +1,5 @@
+Extensions.swift
+	public func getAtIndex(index: Int?) -> Element?
+Prompter.swift
+	var defaultMessage: String { get }
+	public private(set) var defaultMessage: String = "Invalid response. Please try again."
