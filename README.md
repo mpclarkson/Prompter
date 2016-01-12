@@ -53,7 +53,7 @@ import Prompter
 let prompt = Prompt()
 
 //Prompt the user for a string input
-let name = prompt.askString("What is your name?", message: "This is an optional validation message!") { string in _
+let name = prompt.askString("What is your name?", message: "This is an optional validation message!") { string in
   //this is an optional block
 }
 
@@ -65,7 +65,10 @@ let age = prompt.askBool("Do you like beans")
 //y, Y, Yes, yes, t, True, 1 are all true etc
 
 let choices = ["beans", "apples"]
-let age = prompt.askChoice("Which of these do you prefer", choices: choices)
+let age = prompt.askChoice("Which of these do you prefer", choices: choices) { (index, string) in
+    print(index, string)
+    //0, beans
+ }
 
 ```
 
