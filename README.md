@@ -1,11 +1,9 @@
-# Prompter
+# Prompter - Capture Command Line Input with Swift
 
 [![CI Status](http://img.shields.io/travis/mpclarkson/Prompter.svg?style=flat)](https://travis-ci.org/hilenium/Prompter)
 [![Version](https://img.shields.io/cocoapods/v/Prompter.svg?style=flat)](http://cocoapods.org/pods/Prompter)
 [![License](https://img.shields.io/cocoapods/l/Prompter.svg?style=flat)](http://cocoapods.org/pods/Prompter)
 [![Platform](https://img.shields.io/cocoapods/p/Prompter.svg?style=flat)](http://cocoapods.org/pods/Prompter)
-
-## Intro
 
 Prompter is light-weight Swift 2+ library that greatly simplifies capturing user input for command line (cli) applications on OSX and Linux.
 
