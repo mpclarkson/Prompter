@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3490EB6D1C44A8DD00E7BC30 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3490EB6B1C44A8DD00E7BC30 /* Extensions.swift */; };
-		3490EB6E1C44A8DD00E7BC30 /* Prompter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3490EB6C1C44A8DD00E7BC30 /* Prompter.swift */; };
+		3433FED71C44BF9F00FFD45C /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3433FED51C44BF9F00FFD45C /* Extensions.swift */; };
+		3433FED81C44BF9F00FFD45C /* Prompter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3433FED61C44BF9F00FFD45C /* Prompter.swift */; };
 		34B78D7F1C44A60F009E364E /* Prompter.h in Headers */ = {isa = PBXBuildFile; fileRef = 34B78D7E1C44A60F009E364E /* Prompter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		34B78D861C44A610009E364E /* Prompter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34B78D7B1C44A60F009E364E /* Prompter.framework */; };
 		34B78D8B1C44A610009E364E /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B78D8A1C44A610009E364E /* Tests.swift */; };
@@ -29,8 +29,8 @@
 
 /* Begin PBXFileReference section */
 		130362F6FDBD6BB89F3A15D8 /* Pods-SwiftPromptTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftPromptTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftPromptTests/Pods-SwiftPromptTests.release.xcconfig"; sourceTree = "<group>"; };
-		3490EB6B1C44A8DD00E7BC30 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = ../../SwiftPromptOLD/Source/Extensions.swift; sourceTree = "<group>"; };
-		3490EB6C1C44A8DD00E7BC30 /* Prompter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Prompter.swift; path = ../../SwiftPromptOLD/Source/Prompter.swift; sourceTree = "<group>"; };
+		3433FED51C44BF9F00FFD45C /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		3433FED61C44BF9F00FFD45C /* Prompter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Prompter.swift; sourceTree = "<group>"; };
 		34B78D7B1C44A60F009E364E /* Prompter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Prompter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		34B78D7E1C44A60F009E364E /* Prompter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Prompter.h; sourceTree = "<group>"; };
 		34B78D801C44A60F009E364E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -99,8 +99,8 @@
 		34B78D7D1C44A60F009E364E /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				3490EB6B1C44A8DD00E7BC30 /* Extensions.swift */,
-				3490EB6C1C44A8DD00E7BC30 /* Prompter.swift */,
+				3433FED51C44BF9F00FFD45C /* Extensions.swift */,
+				3433FED61C44BF9F00FFD45C /* Prompter.swift */,
 				34B78D7E1C44A60F009E364E /* Prompter.h */,
 				34B78D801C44A60F009E364E /* Info.plist */,
 			);
@@ -287,8 +287,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3490EB6D1C44A8DD00E7BC30 /* Extensions.swift in Sources */,
-				3490EB6E1C44A8DD00E7BC30 /* Prompter.swift in Sources */,
+				3433FED81C44BF9F00FFD45C /* Prompter.swift in Sources */,
+				3433FED71C44BF9F00FFD45C /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
