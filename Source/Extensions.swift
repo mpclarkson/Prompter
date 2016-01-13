@@ -6,8 +6,6 @@
 //  Copyright © 2016 Matthew Clarkson. All rights reserved.
 //
 
-import Foundation
-
 extension String {
 
     var bool: Bool? {

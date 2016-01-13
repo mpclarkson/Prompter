@@ -4,7 +4,6 @@
 //  Created by Matthew on 11/01/2016.
 //  Copyright © 2016 Matthew Clarkson. All rights reserved.
 //
-import Foundation
 
 public typealias Choice = String
 public typealias Choices = [Choice]

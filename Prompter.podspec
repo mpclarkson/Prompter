@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name                = "Prompter"
-  s.version             = "0.1.1"
+  s.version             = "0.1.2"
   s.summary             = "Light weight helpers for developing interactive command line (cli) scripts in Swift."
   s.license             = { :type => "MIT", :file => "LICENSE.md" }
   s.author              = { "Matthew Clarkson" => "mpclarkson@gmail.com" }
