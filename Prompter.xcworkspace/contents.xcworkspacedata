@@ -2,12 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:Source/Extensions.swift">
-   </FileRef>
-   <FileRef
-      location = "group:Source/Prompter.swift">
-   </FileRef>
-   <FileRef
       location = "group:Prompter.xcodeproj">
    </FileRef>
    <FileRef

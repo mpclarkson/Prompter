@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name                = "Prompter"
-  s.version             = "0.1.0"
+  s.version             = "0.1.1"
   s.summary             = "Light weight helpers for developing interactive command line (cli) scripts in Swift."
   s.license             = { :type => "MIT", :file => "LICENSE.md" }
   s.author              = { "Matthew Clarkson" => "mpclarkson@gmail.com" }
@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.requires_arc        = true
   s.source              = { :git => "https://github.com/mpclarkson/Prompter.git", :tag => s.version.to_s }
   s.homepage            = 'https://github.com/mpclarkson/Prompter'
-  s.source_files        = './Source/*.{swift}'
-  s.documentation_url   = 'https://mpclarkson.github.io/Prompter'
+  s.source_files        = 'Source/*.{swift}'
+  s.documentation_url   = 'http://mpclarkson.github.io/Prompter/'
 
 end

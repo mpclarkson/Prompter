@@ -5,9 +5,9 @@
 [![License](https://img.shields.io/cocoapods/l/Prompter.svg?style=flat)](http://cocoapods.org/pods/Prompter)
 [![Platform](https://img.shields.io/cocoapods/p/Prompter.svg?style=flat)](http://cocoapods.org/pods/Prompter)
 
-Prompter is light-weight Swift 2+ library that greatly simplifies capturing user input for command line (cli) applications on OSX and Linux.
+Prompter is lightweight Swift 2+ library that greatly simplifies capturing user input for command line (cli) applications on OSX and Linux.
 
-Specifically, it allow you to prompt the user for input and validate that responses are (currently) `String`, `Int`, `Bool` or a valid single choice from a list.
+Specifically, it allows you to prompt the user for input and validate that responses are (currently) `String`, `Int`, `Bool`, or a valid single choice from a given list.
 
 ## Installation
 
@@ -46,14 +46,15 @@ Each `ask` method includes the following arguments:
 - `message` - optional string to override the default validation message
 - `block` - an optional closure that is called on success
 
-```Swift
+```swift
 
 import Prompter
 
 let prompt = Prompt()
 
 //Prompt the user for a string input
-let name = prompt.askString("What is your name?", message: "This is an optional validation message!") { string in
+let name = prompt.askString("What is your name?",
+  message: "This is an optional validation message!") { string in
   //this is an optional block
 }
 
@@ -61,11 +62,13 @@ let name = prompt.askString("What is your name?", message: "This is an optional 
 let age = prompt.askInt("How old are you?")
 
 //Prompt the user for a Boolean response
-let age = prompt.askBool("Do you like beans")
 //y, Y, Yes, yes, t, True, 1 are all true etc
+let age = prompt.askBool("Do you like beans")
 
+//Ask the user to select from a list of choices
 let choices = ["beans", "apples"]
-let age = prompt.askChoice("Which of these do you prefer", choices: choices) { (index, string) in
+let age = prompt.askChoice("Which of these do you prefer",
+  choices: choices) { (index, string) in
     print(index, string)
     //0, beans
  }
@@ -77,14 +80,13 @@ let age = prompt.askChoice("Which of these do you prefer", choices: choices) { (
 - askDate
 - askMultiple
 - initWithStyle
-- formatting
 
 ##Tests
 
 Run the tests using xctool:
 
 ```bash
-xctool -workspace Prompter.xcworkspace --scheme Prompter
+xctool -workspace Prompter.xcworkspace -scheme Prompter test
 ```
 
 ## Author

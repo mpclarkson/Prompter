@@ -13,7 +13,7 @@ if [ "$TRAVIS_PULL_REQUEST" == "false" ] && [ "$TRAVIS_BRANCH" == "master" ]; th
     git config user.email "travis@travis-ci.org"
     git config user.name "travis-ci"
     echo -e "*** Generating documentation ***\n"
-    jazzy --swift-version 2.1.1 --source-directory . --output . --podspec Prompter.podspec
+    jazzy --swift-version 2.1.1 --source-directory ../ --output . --podspec ../Prompter.podspec
     echo -e "*** Adding docs to git ***\n"
     git add .
     git commit -m "Updated docs from travis build $TRAVIS_BUILD_NUMBER"

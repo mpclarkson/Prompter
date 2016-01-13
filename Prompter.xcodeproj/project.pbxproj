@@ -9,12 +9,13 @@
 /* Begin PBXBuildFile section */
 		3433FED71C44BF9F00FFD45C /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3433FED51C44BF9F00FFD45C /* Extensions.swift */; };
 		3433FED81C44BF9F00FFD45C /* Prompter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3433FED61C44BF9F00FFD45C /* Prompter.swift */; };
+		3495B1FF1C44DA050058D6F3 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3433FED51C44BF9F00FFD45C /* Extensions.swift */; };
+		3495B2001C44DA080058D6F3 /* Prompter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3433FED61C44BF9F00FFD45C /* Prompter.swift */; };
 		34B78D7F1C44A60F009E364E /* Prompter.h in Headers */ = {isa = PBXBuildFile; fileRef = 34B78D7E1C44A60F009E364E /* Prompter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		34B78D861C44A610009E364E /* Prompter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34B78D7B1C44A60F009E364E /* Prompter.framework */; };
 		34B78D8B1C44A610009E364E /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B78D8A1C44A610009E364E /* Tests.swift */; };
 		34B78D961C44A68C009E364E /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 34B78D951C44A68C009E364E /* Podfile */; };
-		3FFCFD4C397614EEE3A54A2F /* Pods_PrompterTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D792FEAA2CCC03C9A74B007E /* Pods_PrompterTests.framework */; };
-		C43255A6D00159121D04CFB3 /* Pods_SwiftPromptTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F51827E88584CBB17B205325 /* Pods_SwiftPromptTests.framework */; };
+		6E142765EB2256A09D43B3D7 /* Pods_PrompterTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C25BDF4097907EEAC956DCD9 /* Pods_PrompterTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +29,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		130362F6FDBD6BB89F3A15D8 /* Pods-SwiftPromptTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftPromptTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftPromptTests/Pods-SwiftPromptTests.release.xcconfig"; sourceTree = "<group>"; };
 		3433FED51C44BF9F00FFD45C /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		3433FED61C44BF9F00FFD45C /* Prompter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Prompter.swift; sourceTree = "<group>"; };
 		34B78D7B1C44A60F009E364E /* Prompter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Prompter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -37,12 +37,10 @@
 		34B78D851C44A610009E364E /* Prompter.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Prompter.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		34B78D8A1C44A610009E364E /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		34B78D8C1C44A610009E364E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		34B78D951C44A68C009E364E /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Podfile; path = ../SwiftPromptOLD/Podfile; sourceTree = "<group>"; };
+		34B78D951C44A68C009E364E /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		6CE419BB796C0E7905E7FE22 /* Pods-PrompterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrompterTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PrompterTests/Pods-PrompterTests.release.xcconfig"; sourceTree = "<group>"; };
-		81B8663DEBA686DB880AF340 /* Pods-SwiftPromptTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftPromptTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftPromptTests/Pods-SwiftPromptTests.debug.xcconfig"; sourceTree = "<group>"; };
-		D792FEAA2CCC03C9A74B007E /* Pods_PrompterTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PrompterTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C25BDF4097907EEAC956DCD9 /* Pods_PrompterTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PrompterTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E811574FD0546894CDFE4CFA /* Pods-PrompterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrompterTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PrompterTests/Pods-PrompterTests.debug.xcconfig"; sourceTree = "<group>"; };
-		F51827E88584CBB17B205325 /* Pods_SwiftPromptTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftPromptTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +56,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				34B78D861C44A610009E364E /* Prompter.framework in Frameworks */,
-				C43255A6D00159121D04CFB3 /* Pods_SwiftPromptTests.framework in Frameworks */,
-				3FFCFD4C397614EEE3A54A2F /* Pods_PrompterTests.framework in Frameworks */,
+				6E142765EB2256A09D43B3D7 /* Pods_PrompterTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,8 +66,7 @@
 		33D0EC29D0AD4F498F691A75 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F51827E88584CBB17B205325 /* Pods_SwiftPromptTests.framework */,
-				D792FEAA2CCC03C9A74B007E /* Pods_PrompterTests.framework */,
+				C25BDF4097907EEAC956DCD9 /* Pods_PrompterTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -99,8 +95,8 @@
 		34B78D7D1C44A60F009E364E /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				3433FED51C44BF9F00FFD45C /* Extensions.swift */,
 				3433FED61C44BF9F00FFD45C /* Prompter.swift */,
+				3433FED51C44BF9F00FFD45C /* Extensions.swift */,
 				34B78D7E1C44A60F009E364E /* Prompter.h */,
 				34B78D801C44A60F009E364E /* Info.plist */,
 			);
@@ -119,8 +115,6 @@
 		FF47E82C6BB4418F29F358A0 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				81B8663DEBA686DB880AF340 /* Pods-SwiftPromptTests.debug.xcconfig */,
-				130362F6FDBD6BB89F3A15D8 /* Pods-SwiftPromptTests.release.xcconfig */,
 				E811574FD0546894CDFE4CFA /* Pods-PrompterTests.debug.xcconfig */,
 				6CE419BB796C0E7905E7FE22 /* Pods-PrompterTests.release.xcconfig */,
 			);
@@ -296,7 +290,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3495B2001C44DA080058D6F3 /* Prompter.swift in Sources */,
 				34B78D8B1C44A610009E364E /* Tests.swift in Sources */,
+				3495B1FF1C44DA050058D6F3 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,7 +406,7 @@
 				INFOPLIST_FILE = Source/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.mpclarkson.SwiftPrompt;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mpclarkson.Prompter;
 				PRODUCT_NAME = Prompter;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -430,7 +426,7 @@
 				INFOPLIST_FILE = Source/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.mpclarkson.SwiftPrompt;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mpclarkson.Prompter;
 				PRODUCT_NAME = Prompter;
 				SKIP_INSTALL = YES;
 			};
